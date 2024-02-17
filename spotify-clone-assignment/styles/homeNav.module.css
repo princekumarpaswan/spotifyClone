@@ -1,0 +1,53 @@
+.outerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-color: #121212;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    gap: 12px;
+    color: white;
+}
+
+
+.innerDiv img{
+    width: 25px;
+    height: 25px;
+    background-color: #121212;
+    /* aspect-ratio: 3/2;
+    object-fit: contain;
+    mix-blend-mode: color-burn; */
+}
+
+.innerDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    background-color: #121212;
+    gap: 5px;
+    margin-left: -2px;
+  
+}
+.innerDiv p{
+    background-color: #121212;
+   
+}
+.outerDiv ul{
+    background-color: #121212;
+}
+.outerDiv ul li{
+    display: flex;
+    /* flex-direction: column; */
+    gap: 15px;
+    list-style: none;
+    background-color: #121212;
+    margin-top: 15px;
+}
+
+.outerDiv ul li span{
+    background-color: #121212;
+   }
